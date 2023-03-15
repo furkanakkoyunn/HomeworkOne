@@ -1,6 +1,6 @@
 ---
 title: "Homework 1"
-author: "Write Your Name and Student ID Here!"
+author: "Furkan Akkoyun 20080377"
 ---
 
 ```{r global_options, include=FALSE}
@@ -13,40 +13,60 @@ opts_chunk$set(fig.align="center", fig.height=4, fig.width=5.5)
 
 **Question 1** With Markdown write a sentence that has one word in bold.
 
-Write Your Answer Here!
+This is a **flower**
 
 **Question 2** With Markdown write a sentence that has one word in italic.
 
-Write Your Answer Here!
+This is a _soup_.
 
 **Question 3** With Markdown write a sentence that has one word in italic bold.
 
-Write Your Answer Here!
+I like ***hamburger***.
 
 **Question 4** With Markdown write an unordered list with three items.
 
-Write Your Answer Here!
+- Item 1
+- Item 2
+- Item 3
 
 **Question 5** With Markdown write an ordered list with three items.
 
-Write Your Answer Here!
+1. Item 1
+2. Item 2
+3. Item 3
 
 **Question 6** With Markdown give a link to your favorite webpage.
 
-Write Your Answer Here!
+This is link to [goturkiye](https://goturkiye.com/?ysclid=lf9mgwu6ly665122744)
 
 **Question 7** With Markdown add a cat picture.
 
-Write Your Answer Here!
+![A cat](https://img4.goodfon.com/original/4752x3168/3/ac/dikaia-koshka-liubopytnaia-mordochka-vzgliad.jpg "A cat")
+
 
 **Question 8** With Rmarkdown insert a code chunk and give an example of a simple mathematical calculation in it.
 
-Write Your Answer Here!
+```{r}
+# Addition operation
+x <- 22
+y <- 12
+z <- x + y
+z
+```
 
 **Question 9** With $LaTeX$ write your favorite equation in block form.
 
-Write Your Answer Here!
+$$
+i \hbar \frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \hat{H} \Psi(\mathbf{r},t)
+$$
 
 **Question 10** In a code chunk calculate 3 + 4.
 
-Write Your Answer Here!
+```{r}
+# Calculate the sum of 3 and 4
+sum <- 3 + 4
+
+# Print the result
+print(sum)
+```
+
